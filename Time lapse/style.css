@@ -1,0 +1,58 @@
+ @import url('https://fonts.googleapis.com/css2?family=REM:wght@500&family=Roboto:wght@500&display=swap');
+
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ .main {
+     background-image: url("background.png");
+     height: 100vh;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     font-family: 'REM', sans-serif;
+ }
+
+ .overlay {
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: nowrap;
+     justify-content: flex-start;
+     align-items: center;
+     background-color: rgb(51 43 43 / 73%);
+     padding: 10px;
+ }
+
+ .tittle {
+     padding: 10px;
+     color: #fff;
+     text-align: center;
+ }
+
+ .col {
+     margin-top: 5px;
+     width: 1000px;
+     display: flex;
+     justify-content: center;
+     color: #fff;
+ }
+
+ .col div {
+     width: 260px;
+     align-items: center;
+     padding-left: 80px;
+ }
+
+ input {
+     height: 50px;
+     width: 50%;
+     background-color: #fff;
+     border-color: transparent;
+     border-radius: 10px;
+     text-align: center;
+     font-size: 30px;
+ }
