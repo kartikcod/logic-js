@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,500&family=Merriweather+Sans:wght@500&family=REM:wght@500&family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: limegreen;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+}
+
+#box {
+    width: 60%;
+    height: 270px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 0px black;
+}
+
+.row {
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#box h1 {
+    margin-left: 50px;
+}
+
+.btn {
+    width: 98%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: limegreen;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: 'roboto', sans-serif;
+    border: none;
+    color: #fff;
+    margin-left: 7px;
+    
+}
+.btn:active{
+    background-color: red;
+}
